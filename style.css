@@ -30,6 +30,7 @@
 .w100 {
     width: 100%;
 }
+ 
 
 .flex {
     display: flex;
@@ -70,7 +71,7 @@ a {
 }
 
 .black {
-    color: rgb(30, 30, 30);
+    color: rgb(255, 255, 255);
 }
 
 .black:hover {
@@ -130,7 +131,7 @@ header>nav {
 }
 
 .carteViolette {
-    background-color: #4d3e9a72;
+    background-color: #f8f8f872;
     display: block;
     width: 23%;
     padding: 40px 0;
@@ -139,8 +140,28 @@ header>nav {
     backdrop-filter: blur(8px);
 }
 
+.bgBleu{
+    background-color: rgb(112, 54, 54);
+}
 
+.project-card{
+    width :300px;
+    background-color:rgb(228, 171, 171);;
+    padding:8px;
 
-
+}
+.project-card img {
+    width: 100%;
+}
+.project-card h3{
+    margin-bottom: 16px;
+}
+.bouton{
+    display: inline-block;
+    background-color: rgb(112, 54, 54);
+    color: #fff;
+    padding: 8px 16px;
+    margin-top: 16px;
+}
 
 
